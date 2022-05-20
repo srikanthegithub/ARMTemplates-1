@@ -1,0 +1,30 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+      "virtualMachineAdminUserName": {
+        "value": "azadmin"
+      },
+      "virtualMachineAdminPassword": {
+        "value": "Access@12345"
+      },
+      "virtualMachineNamePrefix": {
+        "value": "MyVM0"
+      },
+      "virtualMachineCount": {
+        "value": 3
+      },
+      "virtualMachineSize": {
+        "value": "Standard_D2s_v3"
+      },
+      "operatingSystem": {
+        "value": "Server2019"
+      },
+      "availabilitySetName": {
+        "value": "MyAvailabilitySet"
+      },
+      "dnsPrefixForPublicIP": {
+        "value": "ajaydnsvms1"
+      }
+    }
+  }
